@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  height: 90vh;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.main-content {
+  padding: 20px;
+}
+.my-card {
+  min-width: 150px;
+  min-height: 150px;
+  margin: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

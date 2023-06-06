@@ -1,0 +1,107 @@
+.button {
+  border-style: none;
+  background-color: transparent;
+}
+.image {
+  width: 90%;
+  height: 90%;
+  margin: 20px;
+}
+.eachProduct {
+  background-color: antiquewhite;
+  width: 30vw;
+  height: 30vh;
+  margin: 20px;
+}
+.logo-img {
+  height: 70px;
+}
+.my-logo {
+  height: 50px;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  color: black;
+  text-decoration: solid;
+}
+.my-form {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  background-color: #eeeeee;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto";
+  border: 1px solid #64748b;
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+  left: 16px;
+  top: 32px;
+  padding-left: 10px;
+  border-style: none;
+}
+
+.label {
+  color: #262626;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.submit-btn {
+  background-color: #6366f1;
+  font-size: 16px;
+  font-family: "Roboto";
+  height: 30px;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0;
+  width: 100px;
+  margin-top: 25px;
+}
+.center {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-msg {
+  text-align: center;
+  color: #ff0b37;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.button-div {
+  margin: 20px;
+}
+
+.my-form {
+  display: flex;
+  justify-content: space-around;
+}
+.bill-item-details {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
